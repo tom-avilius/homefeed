@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Quicksand&family=Raleway&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    height: 100vh;
+    background: rgb(0,11,36);
+    background: linear-gradient(35deg, rgba(0,11,36,1) 0%, rgba(4,46,70,1) 0%, rgba(4,49,73,1) 0%, rgba(4,49,73,1) 0%, rgba(6,63,87,1) 0%, rgba(6,64,88,1) 16%, rgba(4,115,145,1) 72%, rgba(3,136,169,1) 100%, rgba(0,212,255,1) 100%, rgba(12,123,147,1) 100%);
+}
+
+:root {
+    --primary-color: #044A42;  /* Primary color */
+    --secondary-color: #3A9188;  /* Secondary color */
+    --text-color: #B8E1DD;  /* Text color */
+    --background-color: #27496D;  /* Background color */
+    --accent-color: #0A4D68;  /* Accent color */
+
+    --montserrat: 'Montserrat', sans-serif;
+    --quicksand: 'Quicksand', sans-serif;
+    --raleway: 'Raleway', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+  }
+  
