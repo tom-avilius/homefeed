@@ -26,6 +26,14 @@ header {
     border-radius: 50%;
 }
 
+.intro-brief {
+
+    font-family: var(--montserrat);
+    color: white;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
 .name-heading {
 
     font-family: var(--quicksand);
