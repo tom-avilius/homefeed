@@ -14,6 +14,18 @@ body {
     background: linear-gradient(35deg, rgba(0,11,36,1) 0%, rgba(4,46,70,1) 0%, rgba(4,49,73,1) 0%, rgba(4,49,73,1) 0%, rgba(6,63,87,1) 0%, rgba(6,64,88,1) 16%, rgba(4,115,145,1) 72%, rgba(3,136,169,1) 100%, rgba(0,212,255,1) 100%, rgba(12,123,147,1) 100%);
 }
 
+header {
+
+    text-align: center;
+}
+
+.face-image {
+
+    margin-top: 7%;
+    width: 10%;
+    border-radius: 50%;
+}
+
 :root {
     --primary-color: #044A42;  /* Primary color */
     --secondary-color: #3A9188;  /* Secondary color */
