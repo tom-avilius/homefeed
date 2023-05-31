@@ -10,7 +10,7 @@
 #about {
 
     background-color: white;
-    padding: 10%;
+    padding: 10% 10% 5% 10%;
 }
 
 .about-name {
@@ -20,6 +20,31 @@
     font-weight: 300;
     font-size: 2.2rem;
     letter-spacing: 1px;
+}
+
+.about-graphics {
+
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+
+.about-graphics div {
+
+    text-align: center;
+    padding: 20px;
+}
+
+.about-graphics div h2 {
+
+    padding-top: 8%;
+    padding-bottom: 5%;
+
+    font-family: var(--source);
+    font-weight: 400;
+    color: #636363;
 }
 
 .about-p {
@@ -46,8 +71,6 @@ body {
     background: linear-gradient(145deg, #f4b2ba, #8f7acb, #67afdb);
 }
    
-  
-
 .content {
 
     margin-top: 8%;
@@ -57,6 +80,21 @@ body {
     margin-right: 13%;
 
     border-radius: 5px;
+}
+
+.fa-code {
+
+    color: #efa8b0;
+}
+
+.fa-earth-americas {
+
+    color: #a89cc8;
+}
+
+.fa-pen-nib {
+
+    color: #8cc9f0;
 }
 
 header {
@@ -77,6 +115,15 @@ header {
     color: white;
     font-size: 1.1rem;
     opacity: 0.9;
+}
+
+.line-grey {
+
+    display: block;
+    content: "";
+    height: 1px;
+    color: #636363;
+    background-color: #dddd;
 }
 
 .name-heading {
@@ -112,6 +159,12 @@ nav {
     background-color: #63636312;
 }
 
+#pad-1 {
+
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
 .pen-name-subheading {
 
     font-family: var(--quicksand);
@@ -119,6 +172,12 @@ nav {
     color: white;
     opacity: 0.8;
     font-size: 1rem;
+}
+
+#portfolio {
+
+    background-color: white;
+    padding: 10% 10% 5% 10%;
 }
 
 :root {
