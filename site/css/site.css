@@ -275,16 +275,15 @@ nav {
 }
 
 :root {
-    --primary-color: #044A42;  /* Primary color */
-    --secondary-color: #3A9188;  /* Secondary color */
-    --text-color: #B8E1DD;  /* Text color */
-    --background-color: #27496D;  /* Background color */
-    --accent-color: #0A4D68;  /* Accent color */
 
     --montserrat: 'Montserrat', sans-serif;
     --quicksand: 'Quicksand', sans-serif;
     --raleway: 'Raleway', sans-serif;
-    --poppins: 'Poppins', sans-serif;
     --source: 'Source Sans Pro', sans-serif;
-  }
+}
+
+.social-icons:visited {
+
+    color: initial;
+}
   
