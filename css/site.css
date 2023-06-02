@@ -54,6 +54,22 @@ html {
     color: #636363;
 }
 
+.about-graphics div a {
+
+    padding-top: 10px;
+    font-family: var(--source);
+    font-size: 1rem;
+    color: inherit;
+    border-bottom: solid 1px #636363;
+    text-decoration: none;
+    transition: all ease-in 0.2s;
+}
+
+.about-graphics div a:hover {
+
+    border-bottom: solid 1px transparent;
+}
+
 .about-p {
 
     font-family: var(--source);
@@ -291,6 +307,11 @@ nav {
     padding-bottom: 8%;
 }
 
+#pad-2 {
+
+    padding-bottom: 7%;
+}
+
 .pen-name-subheading {
 
     font-family: var(--quicksand);
@@ -358,7 +379,7 @@ nav {
         padding-top: 5%;
     }
 
-    #pad-1 {
+    #pad-1, #pad-2, #pad-3 {
 
         padding-top: 3%;
         padding-bottom: 3%;
@@ -419,6 +440,7 @@ nav {
     .about-graphics div {
 
         padding-bottom: 5%;
+        width: 100%;
     }
 }
 
