@@ -82,7 +82,7 @@ html {
     margin-left: 2%;
 
     font-family: var(--source);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: inherit;
     list-style-type: none;
 }
@@ -103,7 +103,6 @@ body {
     
     background-color: #dddd;
     background: linear-gradient(145deg, #f4b2ba, #8f7acb, #67afdb);
-    height: 100vh;
 }
 
 .btn {
