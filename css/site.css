@@ -76,6 +76,17 @@ html {
     font-size: 1.1rem;
 }
 
+.about-ul {
+
+    padding-top: 2%;
+    margin-left: 2%;
+
+    font-family: var(--source);
+    font-size: 1.2rem;
+    color: inherit;
+    list-style-type: none;
+}
+
 h1.about-name::after {
 
     display: block;
