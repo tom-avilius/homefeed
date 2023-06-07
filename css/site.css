@@ -92,6 +92,7 @@ body {
     
     background-color: #dddd;
     background: linear-gradient(145deg, #f4b2ba, #8f7acb, #67afdb);
+    height: 100vh;
 }
 
 .btn {
@@ -263,6 +264,11 @@ header {
     height: 1px;
     color: #636363;
     background-color: #dddd;
+}
+
+.mar-12 {
+
+    margin-top: 12%;
 }
 
 .name-heading {
