@@ -193,6 +193,19 @@ body {
     color: #efa8b0;
 }
 
+.fa-chevron-left {
+
+    position: absolute;
+    top: 17%;
+    left: 13%;
+    color: white;
+}
+
+.fa-chevron-left:hover {
+
+    color: rgba(255, 255, 255, 0.837);
+}
+
 .fa-earth-americas {
 
     color: #a89cc8;
