@@ -87,6 +87,28 @@ html {
     list-style-type: none;
 }
 
+.about-dl {
+
+    font-family: var(--source);
+    margin-left: 2%;
+}
+
+.about-dl dt {
+
+    font-size: 1.3rem;
+}
+
+.about-dl dt a {
+
+    color: inherit;
+    text-decoration: none;
+}
+
+.about-dl dt a:hover {
+
+    color: #636363cc;
+}
+
 h1.about-name::after {
 
     display: block;
