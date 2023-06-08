@@ -12,6 +12,13 @@ html {
     margin: 0;
 }
 
+a {
+
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration-color: #636363;
+}
+
 #about {
 
     background-color: white;
