@@ -20,6 +20,11 @@ a {
     text-decoration-color: #636363;
 }
 
+a:visited {
+
+    color: inherit;
+}
+
 #about {
 
     background-color: white;
