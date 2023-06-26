@@ -35,8 +35,10 @@ a:visited {
 
 #about-img {
 
-    background-color: white;
-    border-radius: 5px;   
+    background-image: inherit;
+    border-radius: 5px;  
+    text-align: center; 
+    font-size: 0;
 }
 
 .about-name {
@@ -308,15 +310,10 @@ header {
     text-align: center;
 }
 
-.image-holder img {
+#img-content {
 
-    display: inline;
-    width: 24vw;
-    height: 80vh;
-    border: 2px solid transparent;
-    padding: 0;
-    margin: 0;
-    border-radius: 5px;
+    background-image: none;
+    background-color: inherit;
 }
 
 .inline {

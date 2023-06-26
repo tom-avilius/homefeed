@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Quicksand&family=Raleway&family=Source+Sans+Pro:wght@300&display=swap');
+
+.content-img {
+
+    margin-left: 8%;
+    margin-right: 7%;
+    padding-top: 5%;
+}
+
+#about-img img {
+
+    /* display: inline; */
+    width: 400px;
+    height: 680px;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+#about-img img:hover {
+
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .content-img {
+
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
