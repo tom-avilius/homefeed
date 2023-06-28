@@ -555,3 +555,11 @@ nav {
         padding-top: 8%;
     }
 }
+
+@media screen and (max-width: 600px) {
+    
+    #back {
+
+        top: 10%;
+    }
+}
