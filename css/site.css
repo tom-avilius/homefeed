@@ -338,6 +338,19 @@ header {
     background-color: #dddd;
 }
 
+.link {
+
+    text-decoration: none;
+    border-bottom: 1px solid #636363;
+    
+    transition: all 0.3s ease-in;
+}
+
+.link:hover {
+
+    border-bottom: 1px solid transparent;
+}
+
 .mar-12 {
 
     margin-top: 12%;
