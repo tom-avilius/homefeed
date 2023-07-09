@@ -259,6 +259,11 @@ footer div span{
     padding-bottom: 2%;
 }
 
+footer div span span {
+
+    display: contents;
+}
+
 .footer-h {
 
     font-family: var(--source);
